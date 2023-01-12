@@ -1,0 +1,58 @@
+.App {
+  margin-top: -20px;
+  /* width: 100vw; */
+  padding-top: 15vh;
+  height: 100vh;
+  background-color: #172231;
+
+  display: flex;
+  align-items: flex-start;
+}
+
+.Flag {
+  font-size: 136px;
+  width: 100vw;
+  height: 20vh;
+
+  display: flex;
+  justify-content: center;
+}
+
+.ButtonHolder {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Button {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.Next {
+  background-color: #35DF91;
+}
+
+.Answer {
+  background-color: #2884C8;
+}
+
+.Correct {
+  display: flex;
+  justify-content: center;
+  color: wheat;
+
+  width: 100vw;
+  height: 5vh;
+}
+
+.disable {
+  visibility: hidden;
+}
